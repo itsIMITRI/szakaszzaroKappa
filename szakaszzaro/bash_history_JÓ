@@ -1,0 +1,2000 @@
+wc -c /etc
+ls | wc -c
+sort
+man sort
+sort -d /etc
+man ls
+ls -lr
+id
+uid
+id
+head -15
+head -15 passwd
+head -15 passwd | sort
+cat /etc/passwd | cut -d : -f7 | sort | uniq | wc -l
+last
+last | grep Feb
+last | grep Feb | grep -v reboot
+last | grep Feb | grep -v reboot | cut -d " " -f 1 | sort | uniq | grep -v wtmp 
+ls
+cd ..
+ls
+cd ..
+cd etc
+ls
+grep ^f passwd | wc -l
+grep ^f passwd
+grep -c f passwd
+grep ^f passwd | wc -l
+last | head -3 && last | tail -12
+last | tail -1
+clear
+cd.
+cd ..
+crlea
+clear
+cat
+cat &
+fg 1
+ulimit -u
+ps
+nano &
+cat &
+ps
+ps a
+ps ax
+ps axf
+ps -ef
+pstree
+top
+fuser .
+fuser -v
+system ctl
+systemctl
+systemctl -t service
+crontab -e
+ls 
+cd home
+cd imi
+ls
+apt install openssh-server
+sudo apt install openssh-server
+sudo adduser fixo
+ls /home
+clear
+l
+ls
+clear
+ls
+mkdir feladat2
+cd feladat
+cd feladat2
+touch ures.txt
+echo Ez nem üres fájl! > nemures.txt
+ls
+cat nemures.txt 
+mkdir linkek
+ls
+mv ures.txt uresfajl.txt
+ls
+ln
+man l
+man ln
+ln nemures.txt nemureslink
+ls
+ls -l
+mv nemureslink ./linkek
+ls
+ls linkek
+ls -s uresfajl.txt nemuressoftlink
+ln -s uresfajl.txt nemuressoftlink
+ls .l
+ls -s
+ls -l
+stat
+clear
+man stat
+stat -f
+man stat
+ls
+stat nemures.txt
+cd linkek
+ls
+rm nemureslink 
+ls
+cd ..
+ls -l
+rm uresfajl.txt 
+ls -l
+ls
+grep sor grepTest.txt 
+cat grepTest.txt | less
+grep [1-9] grepTest.txt 
+grep [1-9,] grepTest.txt 
+clear
+ls
+cat grepTest.txt 
+grep ^[1-9] grepTest.txt 
+grep ^[1900-2021] grepTest.txt 
+grep ^[1-9]$grepTest.txt 
+grep ^[1-9]$ grepTest.txt 
+grep [^1-9] grepTest.txt 
+clear
+cat b
+cat grepTest.txt 
+ls -l
+grep $ez grepTest.txt && grep sor$ grepTest.txt 
+grep $ez grepTest.txt | grep sor$
+grep $[ez] grepTest.txt | grep sor$
+grep $[ez] grepTest.txt | grep [sor]$
+grep [^ez] grepTest.txt | grep [sor$]
+grep ^ez grepTest.txt 
+clear
+cat grepTest.txt 
+grep ^ez grepTest.txt 
+grep ez grepTest.txt 
+grep ^Ez grepTest.txt 
+grep ^sor grepTest.txt 
+grep ^Sor grepTest.txt 
+grep Sor$ grepTest.txt 
+grep sor$ grepTest.txt 
+grep [sor]$ grepTest.txt 
+grep [sor$] grepTest.txt 
+grep sor grepTest.txt 
+grep ^Ez grepTest.txt 
+grep ^Ez grepTest.txt && grep sor
+grep ^Ez grepTest.txt && grep sor grepTest.txt 
+grep ^Ez grepTest.txt | grep sor 
+grep ^Ez grepTest.txt | grep sor$ 
+clear
+cat grepTest.txt 
+grep [1-9]. grepTest.txt 
+grep [0-9]. grepTest.txt 
+grep [0-9][.] grepTest.txt
+grep [0-9]\ [.] grepTest.txt
+grep [0-9] [.] grepTest.txt
+grep [0-9][.] grepTest.txt
+grep [0-9][.][0-9]. grepTest.txt
+grep [0-9][.][0-9].[0.9] grepTest.txt
+grep [0-9] grepTest.txt | grep -v -
+clear
+cat grepTest.txt 
+grep [0-9] grepTest.txt | grep -v .
+grep [0-9] grepTest.txt | grep -v [.]
+grep @ grepTest.txt 
+grep @ grepTest.txt | wc -l
+grep [0-9] grepTest.txt | grep -v .
+grep [0-9] grepTest.txt | grep -v -
+grep [0-9]{1,4} grepTest.txt | grep -v -
+ls
+clea
+clear
+cat grepTest.txt 
+grep @ grepTest.txt 
+grep [0-9] grepTest.txt | grep -v -
+grep ^Ez grepTest.txt | grep sor$ 
+ls
+grep ^Ez grepTest.txt | grep sor$ 
+grep ^Ez grepTest.txt | grep sor 
+grep ^Ez grepTest.txt | grep sor$ 
+clear
+cat grepTest.txt 
+grep ^Ez $sor grepTest.txt 
+grep ^[a-d]{4} grepTest.txt 
+grep ^[a-d]{1,4} grepTest.txt 
+grep ^[a-d]{4} grepTest.txt 
+cat g
+ls
+cd feladat2/
+ls
+cat grepTest.txt 
+clear
+cat grepTest.txt 
+grep ^[a-d] grepTest.txt 
+grep ^[a-d] grepTest.txt | grep -v @
+nano &
+ps
+jobs
+cat &
+top &
+jobs
+ps
+top
+fg 4
+jobs
+fg 3
+fg 2
+fg 1
+fg 3
+joa
+jobs
+clear
+jobs
+top &
+fg 1
+top
+jobs
+nano &
+ps
+kill -9 10701
+jobs
+grep -E '^[0-9]{4}.' grepTest.txt
+grep -E '^[0-9]{4}\.' grepTest.txt
+grep -E 'Ez sor$' grepTest.txt 
+grep -E '^Ez sor$' grepTest.txt 
+grep -E 'Ez?.sor$' grepTest.txt 
+grep -E '^Ez?.sor$' grepTest.txt 
+grep -E '^Ez\sor$' grepTest.txt 
+grep sor $ grepTest.txt 
+grep sor grepTest.txt 
+grep -E sor grepTest.txt 
+grep -E '^Ez.*sor' grepTest.txt 
+grep -E ^[a-d]{4}$ grepTest.txt 
+grep -E '^[a-d]{4}$' grepTest.txt 
+grep -E '^[a-d]${4}' grepTest.txt 
+grep -E '^[a-d].${4}' grepTest.txt 
+grep -E '^[a-d]{4} $' grepTest.txt 
+grep -E '^[a-d]{4}$' grepTest.txt 
+grep -E ^[a-d]{4} grepTest.txt 
+grep -E ^[a-d]{4}$ grepTest.txt 
+grep -E ^[a-d]${4} grepTest.txt 
+grep -E ^[a-d]${4,4} grepTest.txt 
+grep -E ^[a-d]${4} grepTest.txt 
+grep -E ^[a-d]{4} grepTest.txt 
+pstree
+ps service
+systemctl
+rmuser
+removeuser
+clear
+systemctl -t a service
+systemctl -t  service
+sudo deluser fixo
+who
+users
+ssh imi@192.168.5.64
+ls
+scp
+scp imi@192.168.5.64 /home/imi/imi.txt /home/imi
+ssh imi@192.168.5.64
+ls
+cd ..
+ls
+ls orai
+ls
+cd orai
+ls
+ssh imi@192.168.5.64
+ls
+ssh-keygen -t rsa
+cd ..
+ls
+cd orai
+ls
+cd ..
+cd /home/imi/.ssh
+ls
+cat id_rsa
+ssh-copy-id imi@192.168.5.64
+exit
+ssh imi@192.168.5.64
+sudo apt update
+apt list --upgradable
+sudo apt upgrade
+sudo reboot now
+node object.js 
+node array.js 
+node array.js 
+ad
+sadasd
+asf
+a
+f
+asf
+sa
+f
+asf
+node array.js 
+node feladat.js 
+node elso.js 
+node masodik.js 
+node elso.js 
+node na
+node masodik.js 
+node genarray.js 
+node obj1.js 
+node calculator
+node calculator.js
+node calculatorMain.js 
+ls
+cd Prog
+mkdir Day3
+cd Day3
+ls
+code .
+ls
+cd orai
+ls
+mkdir shell
+ls
+mv shell Shell Scripts
+ls
+clear
+mv shell Shell_Scripts
+ls
+clear
+ls
+cd Shell_Scripts/
+ls
+clear
+touch hello.sh
+nano hello.sh 
+ls -l
+./hello.sh
+chmod 755 hello.sh 
+./hello.sh
+test.sh
+ls
+clear
+./hello.sh 
+nano hello.sh 
+./hello.sh 
+nano hello.sh 
+./hello.sh 
+nano hello.sh 
+./hello.sh 
+nano hello.sh 
+./hello.sh 
+nano hello.sh 
+./hello.sh 
+nano hello.sh 
+./hello.sh 
+nano hello.sh 
+./hello.sh 
+nano hello.sh 
+./hello.sh 
+nano hello.sh 
+./hello.sh 
+nano hello.sh 
+./hello.sh 
+nano hello.sh 
+./hello.sh 
+ls
+ls -l
+ls
+nano hello.sh 
+rm imi
+ls
+./hello.sh 
+ls
+rm igen
+nano hello.sh 
+./hello.sh 
+ls
+nano hello.sh 
+./hello.sh 
+ls
+rm nemimi_fajl 
+rm gein_fajl 
+ls
+./hello.sh 
+ls
+touch loop.sh
+nano loop.sh 
+,/loop.sh
+ls
+./loop.sh
+chmod 755 loop.sh 
+./loop.sh
+nano loop.sh 
+./loop.sh
+nano loop.sh 
+./loop.sh
+nano loop.sh 
+./loop.sh
+ls
+mv loop.sh for.sh
+ls
+touch while.sh
+chmod 755 while.sh 
+nano wh
+ls
+nano while.sh 
+./while.sh 
+touch while2.sh
+ls
+chmod 755 while2.sh 
+nano while2.sh 
+touch test.txt
+nano while2.sh 
+./while2.sh 
+nano while2.sh 
+./while2.sh 
+ls
+cat test.txt 
+nano while2.sh 
+nano test.txt 
+nano while2.sh 
+./while2.sh 
+touch if.sh
+chmod 755 if.sh 
+nano if.sh 
+./if.sh 
+nano if.sh 
+./if.sh 
+nano if.sh 
+./if.sh 
+nano if.sh 
+./if.sh 
+nano if.sh 
+./if.sh 
+nano if.sh 0
+./if.sh 
+./if.sh 0
+./if.sh
+./if.sh 5
+./if.sh 
+touch case
+chmo 775 case
+chmod 775 case
+nano case
+./case
+ls
+cd ..
+ls
+cd ..
+ls
+mkdir bin
+cd bin
+touch dir.dat
+touch fb.sh
+cd ..
+mkdir et
+rmdir et
+mkdir etc
+ls
+cd bin
+ls
+cd ..
+cd etc
+ls
+cd ..
+cd bin
+ls
+rm dir.dat
+ls
+cd ..
+cd etc
+ls
+touch dir.conf
+ls
+nano dir.conf 
+cd..
+sudo apt install vim
+vim /bin/fb.sh
+ls
+cd etc
+ls
+nano dir.conf 
+cd ..
+ls
+stat orai
+ls orai
+cd orai
+ls -l
+ls
+cd ..
+ls
+cd bin
+ls
+vim fb.sh 
+chmod 755 fb.sh 
+./fb.sh 
+vim fb.sh 
+./fb.sh 
+vim fb.sh 
+./fb.sh 
+cd ..
+touch flow.zip
+cd bin
+./fb.sh 
+ls
+ls ..
+./fb.sh 
+vim fb.sh 
+./fb.sh 
+cd ..
+ls
+cd ..
+ls
+~
+cd ~
+ls
+cd bin
+ls
+vim fb.sh 
+cd ..
+ls
+touch flow.zip
+zip flow flow
+zip flow flow.zip
+zip -f flow flow.zip
+ls
+rm flow.zip
+ls
+cd bin
+ls
+cd ..
+zip orai flow.zip
+ls
+zip orai flow
+zip flow orai
+és
+ls
+cd bin
+ls
+vim fb.sh
+./fb.sh 
+ls
+cd ..
+ls
+cd bin
+cd ..
+cd bin
+vim fb.sh 
+./fb.sh 
+ls
+ls ..
+vim fb.sh 
+ls
+cd ..
+ls
+ls orai
+ls
+unzip flow.zip
+ls
+ls flow
+clear
+ls
+cd bin
+ls
+vim fb.sh 
+ls
+ls ..
+./fb.sh 
+ls
+ls cc
+ls ,,
+ls ..
+ls
+./fb.sh 
+cd ..
+cd etc
+ls
+cat dir.conf 
+cd ..
+ls
+cd bin
+ls
+ls flow.zip
+cd flow.zip
+ls
+vim fb.sh
+ls ..
+./fb.sh 
+és ..
+ls ..
+
+cd ..
+./fb.sh 
+rm flow.zip 
+cd bin
+ls
+./fb.sh 
+vim fb.sh 
+ls
+ls ..
+./fb.sh 
+vim fb.sh 
+ls.
+ls
+cd ..
+ls
+rm orai.zip 
+cd bin
+./fb.sh 
+vim fb.sh 
+./fb.sh 
+su
+clear
+ls
+./fb.sh 
+cd /
+ls
+cd media
+ls
+cd imi
+ls
+cd 0E2ED90A2ED8EBA9/
+ls
+cd ..
+ls -l
+sudo apt-get remove ntfsprogs && sudo apt-get install ntfs-3g
+ls
+cd Day3
+ls
+node addsub.js 
+node maxlength.js 
+node genarray.js 
+ls
+cd
+cd Day3
+ls
+cd Prog
+cd Day3
+clear
+ls
+node myRandom.js 
+node index.js 
+ls
+cd Prog
+ls
+code .
+cd Day3
+ls
+cd Day3
+ls
+node index.js 
+cd Day4
+node string.js 
+node sumarray.js
+node megszamlalas.js 
+node minmax.js 
+node eldontes.js 
+ls
+cd Day4
+node elso.js
+node string.js 
+node elso.js
+node masodik.js 
+node harmadik.js 
+node masodik.js 
+node harmadik.js 
+node palindrom.js 
+node pali.js
+node palindrom.js 
+node negyedik.js 
+ls
+cd Prog
+ls
+mkdir Day4
+ls
+cd Day4
+cd ..
+code .
+ls
+mkdir Day5
+cd Day5
+node kereses.js 
+node masolas.js 
+node kivalogatas.js 
+node sz
+node szetvalogatas.js 
+node metszet.js 
+node unio.js 
+ls
+cd Day4
+nano palindrom.js 
+node palindrom.js 
+node elso.js
+cd
+ls
+cd Prog
+lls
+ls
+cd Day5
+node elso.js
+node massodik.js
+node masodik.js
+node harmadik.js 
+node masodik.js
+node harmadik.js 
+node masodik.js 
+node elso.js 
+cd Day3
+node elso.js 
+cd ..
+és
+ls
+cd Day4
+node elso.js 
+node masodik.js 
+ls
+cd Day6
+ls
+node elso.js
+node masodik.js 
+node masoik2.js 
+node masodik2.js 
+node elso.js 
+node masodik2.js 
+node masodik
+node masodik2.js 
+node masodik
+node masodik2.js 
+node masodik
+node elso.js 
+node harmadik.js 
+node negyedik.js 
+node otodik.js 
+node hatodik.js
+ls
+cd
+cd Prog
+ls
+mkdir Day6
+sudo apt install git
+$ ssh-keygen -t ed25519 -C "vargaimi990330@gmail.com"
+ssh-keygen -t ed25519 -C "vargaimi990330@gmail.com"
+/.shh/
+ls -a
+pws
+pwd
+./.ssh
+cat .shh
+cat .ssh
+cd /home/imi/.ssh
+és
+ls
+cat id_ed25519.pub 
+ssh -T git@github.com
+cd ..
+ls
+mkdir git
+cd git
+git clone git@github.com:itsIMITRI/proba.git
+ls
+cd proba
+ls
+ls -la
+ls -a
+nano main.js
+cat main.js 
+git add main.js 
+git status
+git commit
+git-commit
+git status
+git push
+git commit
+git comit
+git status
+git commit main.js
+git config --global user.name "Varga Imre"
+git config --global user.email "vargaimi990330@gmail.com"
+git commit main.js
+git push
+git remote -v
+nano main.js
+git status
+git add main.js 
+git status
+git comit
+git commit
+git status
+git push
+ls
+cat main.js 
+ls
+cd Day6
+node negyedik.js 
+node otodik.js 
+node masodik
+node masodik2
+ls
+cd
+cd Day7
+cd Prog
+cd Day7
+ls
+node sort.js 
+node 2darray.js 
+node 2
+node 2darray.js 
+npm init
+npm install chalk
+node 2darray.js 
+node test.js 
+cd Day6
+node ha
+node hatodik.js 
+cd
+cd Prog
+cd Day7
+node gyakorlat.js 
+cd Day7
+node gyakorlat.js 
+cd Day8
+cd ..
+cd Day8
+node gyakorlo.js 
+node sort.js 
+node gyakorlo.js 
+npm init
+npm install readline-sync
+node gyakorlo.js 
+node gyakorlo.js q
+node gyakorlo.js 
+npm install fs
+node gyakorlo.js
+node varosok.js 
+ls
+cd git
+ls
+cd proba
+ls
+nano README.md 
+git status
+git diff
+nano main.js
+git diff
+nano main.js
+git diff
+git status
+git add main.js 
+git status
+git commit -m "update main.js with current date"
+git status
+git add README.md 
+git status
+nano README.md 
+git status
+git diff
+git add README.md 
+git diff
+git status
+git diff
+git commmit -m "Update readme"
+git commit -m "Update readme"
+git status
+git log
+git push
+ls
+cat main.js 
+ls
+git l
+git -l
+clear
+git status
+nano README.md 
+git la
+git status
+git add README.md 
+git statis
+git status
+git push
+git status
+git comit README.md
+git commit README.md
+git status
+git push
+git pull
+cd Day9
+ls
+node callback.js 
+cd Day9
+node akaszto.js 
+cd Day9
+node akaszto.js 
+cd Day9
+npm init
+npm install readline-sync
+node akaszto.js 
+node akaszto.js a
+node akaszto.js 
+cd Day9
+node ak
+node akaszto.js 
+cd Day9
+node akaszto.js 
+cd Day9
+node akaszto.js 
+cd Day9
+node akaszto.js 
+cd Day9
+node akaszto.js 
+cd Day9
+node akaszto.js 
+cd 
+cd Prog
+cd Day9
+node akaszto.js 
+cd Day9
+node akaszto.js 
+node akaszto.js p
+cd Day9
+node akaszto.js 
+cd Day9
+node akaszto.js 
+cd Day9
+node akaszto.js 
+cd Day9
+node akaszto.js 
+cd Day9
+node akaszto.js 
+cd Day9
+node akaszto.js 
+cd Day9
+node akaszto.js 
+cd Day9
+node akaszto.js 
+cd Day9
+node akaszto.js 
+cd Day9
+cd Day10/
+node map.js 
+cd Day10/
+node map.js 
+cd Day10/
+node map.js 
+[A
+node map.js 
+ls
+cd git
+ls
+git@github.com:itsIMITRI/gyakorlo.git
+ssh git@github.com:itsIMITRI/gyakorlo.git
+ls
+git
+git clone git@github.com:itsIMITRI/gyakorlo.git
+ls
+cd gyakorlo/
+ls
+ls -a
+git status
+git add minmax.js 
+git status
+git commit minmax.js 
+git status
+git push
+git branch dev
+git status
+git checkout dev
+ls
+git status
+git add minmax.js 
+git status
+nano minmax.js 
+git status
+git add minmax.js 
+git commit minmax.js 
+git status
+nano minmax.js 
+git status
+git add minmax.js 
+git commit minmax.js 
+git status
+git push
+git branch
+git diff master..dev
+git checkout master
+git checkout main
+git status
+git branch
+git diff main..dev
+git merge dev
+git status
+git push
+git branch
+git checkout dev
+git branch
+git push -u
+git push --set-upstream origin dev
+git status
+ls
+nano minmax.js 
+git status
+git add minmax.js 
+git commit
+git push
+git checkout main
+git merge dev
+git status
+git push
+history
+git checkout dev
+nano minmax.js 
+git status
+git add minmax.js 
+git commit 
+git push
+git checkout main
+git merge dev
+git push
+git branch
+git checkout dev
+ls
+nano minmax.js 
+git status
+git add minmax.js 
+git commit
+git push
+ls
+cd ..
+ls
+git clone git@github.com:flowacademyhu/kappa-pract-feb26.git
+ls
+cd kappa-pract-feb26/
+ls
+git branch
+git branch Imi
+git checkout branch
+git checkout Imi
+git branch
+ls
+nano main.js
+git status
+git add main.js 
+git commit
+git push
+git push --set-upstream origin Imi
+git status
+git diff
+git diff..dev
+git diff...dev
+git pull origin master
+git pull origin main
+git diff
+nano main.js
+git status
+git add main.js 
+git commit
+git push
+git status
+ls
+cd git
+ls
+git clone https://github.com/hgarc014/git-game.git
+ls
+cd git-game
+ls
+cat README.md 
+git log
+git log | grep Hello
+git grep Hello
+git log --grep 
+git co 640273807f9bac8af03575f82b788663d4b99927
+git checkout 640273807f9bac8af03575f82b788663d4b99927
+cat README.md 
+git log
+git log | grep Author
+git log | grep Author Hello
+git log | grep Author
+git checkout author
+ls
+cat reande
+cat r
+cat README.md 
+git branch
+bug
+clear
+cat README.md 
+git branch
+git checkout bug
+git README.md
+cat README.md 
+git diff
+git diff main
+git diff...main
+git log
+git branch
+cat README.md 
+ls
+git blame
+git blame cool.cpp
+git checkout LinusTorvalds2014 
+ls
+cat README.md 
+ls -a
+cat .gitignore 
+ls -la
+cat .gitignore 
+git checkout tree
+ls
+cat Re
+cat README.md 
+test.s
+test.sh
+clear
+ls
+cat README.md 
+nextclue_input.cpp
+/outputclue.sh
+./outputclue.sh
+ls -a
+ls -l
+
+./nextsclue_input.cpp
+./nextclue_input.cpp
+./outputclue.sh
+nano outputclue.sh 
+git diff
+git diff outputclue.sh nextclue_input.cpp
+clear
+ls
+cat README.md 
+./nextclue_input.cpp
+ls -l
+./outputclue.sh 
+./outputclue.sh outputclue.sh 
+ls -l
+nano nextclue_input.cpp 
+nano outputclue.sh 
+./outputclue.sh nextclue_input.cpp 
+ls
+cat nextclue_input.cpp 
+git checkout code4life 
+ls
+cd R
+cat README.md 
+git diff
+nano nextclue_input.cpp 
+ls
+nano nextclue_input.cpp 
+git pull
+git status
+git pull origin
+clear
+lss
+ls
+clear
+ls
+cat README.md 
+ls -l
+./nextclue_input.cpp
+nano nextclue_input.cpp 
+git checkout tree
+cat nextclue_input.cpp 
+git checkout code4life 
+cat nextclue_input.cpp 
+cat README.md 
+git tree
+git checkout tree
+git merge code4life
+git checkout code4life 
+git branch
+git checkout code4life 
+nano nextclue_input.cpp 
+git checkout code4life 
+git merge code4life 
+nano nextclue_input.cpp 
+git status
+nano nextclue_input.cpp 
+git status
+git commit
+git add nextclue_input.cpp 
+git status
+git commit
+git status
+ls
+./outputclue.sh nextclue_input.cpp 
+git checkout mouse
+ls
+cat README.md 
+cat remember 
+ls
+git diff bug/remember mouse/remember
+git dif
+git diff remember mouse/remember
+git diff remember...mouse/remember
+git diff bug/remember -- remember
+git diff remember -- remember
+git diff mouse...bug
+git diff mouse/remember...bug/remember
+git diff mouse...bug
+git checkout bug
+ls
+git checkout mouse
+git diff
+git diff --
+git
+git diff
+git diff remember
+git diff remember.../bug/remember
+git diff remember -- bug/remember
+git diff ./remember -- bug/remember
+git diff bug/remember -- remember
+git diff bug/remember
+git diff bug/remember -- mouse/revision
+git diff bug/remember -- mouse/remember
+git diff bug/remember
+git diff bug remember
+git checkout Henry
+git branch
+ls
+cat README.md 
+git branch
+git checkout Henry
+ls
+cat README.md 
+git tag -d Henry
+ls
+cat README.md 
+git checkout Henry
+ls
+cat README.md 
+git update
+git update master
+git update--master
+clear
+ls
+cat README.md 
+git status
+git remote-v
+git remote -v
+git status
+git remote -v
+git pull
+cat README.md 
+git checkout master
+git pull
+git remote -v
+git pull
+l
+ls
+git README.md
+cat README.md 
+git checkout Henry
+ls
+clear
+cat README.md 
+git remote -v
+git remote add upstream https://github.com/drami025/git-game.git
+git remote -v
+git pull upstream master
+cat README.md 
+cd Cat\ man/
+npm init
+ls
+mkdir project
+cd project/
+git clone git@github.com:flowacademyhu/kappa-cat-man.git
+ls
+cd kappa-cat-man/
+ls -l
+ls -a
+cd .git
+cd ..
+cd .git
+ls
+cd ..
+git log
+git branch 
+git checkout jonka
+git status
+git pull
+git status
+git pull
+ez gáz
+ls
+git branch
+git checkout jonka
+git status
+git pull
+ls
+git pull
+git checkout Barna 
+ls
+l
+sl
+sls
+ls
+git pull
+ls
+ls -a
+ls -all
+ls -l
+ls -a
+git pull
+ls .a
+ls -a
+git branch
+git checkout Barna
+ls
+git checkout master
+ls a
+ls -a
+l
+ls
+cd project/
+ls
+cd kappa-cat-man/
+ls
+git pul
+git pull
+ls
+git status
+node maps.js
+node index.js 
+git status
+git add .
+git stats
+git status
+git commit
+git status
+git push
+npm install readline-sync
+
+npm install readline-sync
+git push
+node index.js 
+ls
+cd project/
+ls
+cd kappa-cat-man/
+ls
+code .
+git status
+git add .
+git status
+git commit
+git push
+node index.js 
+git pull
+git status
+git stash
+git pull
+node 
+git pull
+node random.js 
+git pull
+node index.js 
+git pull
+node index.js 
+node index.js
+node random.js
+ls
+cd pe
+cd project/
+cd kappa-cat-man/
+ls
+code .
+ls
+cd git
+ls
+git clone git@github.com:git-game/git-game-v2.git
+ls
+cd git-game
+cd ..
+cd git-game-v2/
+ls
+can README.md 
+clear
+cat README.md 
+git ls-files
+git ls-files -c
+git ls-files | wc
+git checkout 755
+ls
+cat README.md 
+git checkout 754
+ls
+cat README.md 
+wc
+git checkout master
+ls
+git branch
+cat README.md 
+git ls-files
+git ls-files | wc-l
+git ls-files | wc -l
+git checkout 30
+ls
+cat README.md 
+git checkout master
+cat README.md 
+git ls-files | xargs wc -l
+git checkout 6865
+ls
+cat README.md 
+git checkout 6861
+cat README.md 
+git show
+git show <revhas>
+git blame
+clear
+cat README.md 
+ls
+git checkout character
+git log
+cat README.md 
+git show keyboard
+git checkout keyboard
+git log
+git hash
+git show keyboard
+git show
+git show commit keyboard
+git show commit-- keyboard
+git show commit -- keyboard
+git show keyboard
+git show -notes
+git show -notes keyboard
+git log
+git show -notes 16a28decee95df6d07def6cfdf32b3eee2c626c9
+git show 16a28decee95df6d07def6cfdf32b3eee2c626c9
+git checkout snowden
+ls
+cat r
+cat README.md 
+git shortlog
+git checkout anon
+ls
+cat README.md 
+git describe
+git checkout return
+ls
+cat README.md 
+git checkout pretty
+ls
+cat README.md 
+git log -tree
+git log-tree
+ls-ree
+git write tree
+git write-tree
+git cat-file -t 9ba386fe0ed437ebca18d36d6b7d564fcb1d45dc
+git checkout tree
+git worktree
+git worktree list
+git write-tree
+git read-tree
+git read-tree 9ba386fe0ed437ebca18d36d6b7d564fcb1d45dc
+cat README.md 
+git log
+ls
+cat README.md 
+git grep 3331d0b
+git log | grep 3331d0b
+$ git cat-file -p master^{tree}
+git cat-file -p master^{tree}
+git checkout blob
+git log --pretty
+cat README.md 
+git log --pretty | grep 3331d0b
+git log --pretty | grep *3331d0b*
+git log --pretty | grep *333
+git log --pretty | grep 333
+git log --pretts
+git log --pretty
+git log --tree
+git log --pretty=format
+git log --pretty
+git grep 3331d0b
+git log --pretty | git grep 3331d0b
+git log --pretty
+cat README.md 
+git log --help
+git lot %T
+git log %T
+git log --%T
+git log --help
+git log
+git log --T
+git log %T
+git log%T
+git log T
+git log --t
+git log --T
+git log --tree
+git tree
+ls
+cat README.md 
+git log --help
+git log --pretty=%h | grep 3331d0b
+git log --pretty="%t %s" | grep 3331d0b
+git checkot SIGPOLL
+git checkout SIGPOLL
+ls
+cat README.md 
+git submodule
+git submodule bugs
+git submodule Bugs
+clear
+cat README.md 
+git submoudle
+git submodule
+git checkout history
+ls
+cat README.md 
+ls
+cd Sitebuilding/
+code .
+ls
+cd project/
+ls
+cd kappa-cat-man/
+code .
+ls
+node menu.js 
+ls
+cd project/
+cd kappa-cat-man/
+node menu.js
+node index.js 
+git pull
+git stash
+git pull
+node index.js 
+git pull
+git status
+git pull
+git stash
+git pull
+git status
+git stash
+git pull
+node index.js 
+git pull
+git stash
+git pull
+node index.js 
+git pull
+node menu.js 
+npm install
+node menu.js 
+ls
+cd project/
+cd kappa-cat-man/
+ls
+node menu.js 
+node index.js 
+cd project/
+cd kappa-cat-man/
+node menu.js
+code .
+node menu.js
+CLEAR
+clear
+node menu.js
+apt get-install netcat
+sudo apt-get install netcat
+nc example.com 80
+cd .
+cd ..
+ls
+cd ..
+mkdir halozat
+cd halozat/
+nano hello.txt
+{ echo -ne "HTTP/1.0 200 OK\r\nContent-Length: $(wc -c <hello.txt)\r\n\r\n"; cat hello.txt; } | nc -l 8080
+apt-get install dnsutils
+sudo apt-get install dnsutils
+dig
+dig google.com
+dig facebook.com
+clear
+nc -l 5000
+nc localhost 5000
+fsdfsdf
+node menu.js
+node index.js 
+node menu.js 
+node index.js 
+git pull
+git stash
+git pull
+node menu.js 
+git pull
+node menu.js 
+git status
+git pull
+git stash
+git pull
+node menu.js 
+ifconfig
+sudo apt install net-tools
+ifconfig
+ifconfig | grep inet
+nc 192.168.5.56 5000
+nc -l 5000
+nc 192.168.5.63 5000
+clear
+nc 192.168.5.63 5000
+clear
+l
+cd project/
+cd kappa-cat-man/
+code 
+code .
+ls -ltrh /dev/video
+lspci -ltrh /dev/video
+sudo apt-get install cheese
+cheese
+lsmod
+sudo apt-get install libsbigudrv2 libsbigudrv0
+sudo apt-get install libsbigudrv2
+chees
+cheese
+sudo apt-get install libsbigudrv2 libsbigudrv0
+sudo apt-get install libsbigudrv0
+git pull
+git stash
+git pull
+node menu.js
+git pull
+git status
+git pull
+sudo ./install
+droidcam
+droidcam-64bit
+git pull
+sudo ./install
+droidcam
+clear
+ls
+cd ..
+cd. .
+cd ..
+ls
+cd project
+cd kappa-cat-man/
+ls
+git pull
+git statuis
+git status
+git add .
+ls
+git status
+git commit valami
+git pull
+git commit
+git status
+git pull
+ls
+node menu.js
+npm install
+node menu.js
+node menu.js
+cd project/
+ls
+git clone git@github.com:flowacademyhu/kappa-cat-man.git
+ls
+cd kappa-cat-man/
+code .
+ls
+node menu.js
+node menu
+node menu.js
+node menu
+node menu.js
+node menu
+cd project/
+cd kappa-cat-man/
+node menu.js
+node menu
+ls
+cd project/
+cd kappa-cat-man/
+no
+node menu
+git branch Imi
+git status
+git add .
+git commit
+git branch
+git checkout Imi
+git status
+git push
+git push --set-upstream origin Imi
+git status
+git push
+git status
+git add .
+git commit teszt
+git commit
+git push
+cd kappa-cat-man/
+ls
+clear
+git branch
+git status
+git pull
+git checkout master
+git branch
+git stash
+git checkout master
+ls
+git status
+git pull
+git status
+node menu.js
+ls
+cd project/
+ls kappa-cat-man/
+code .
+cd kappa-cat-man/
+node menu
+cd kappa-cat-man/
+git status
+git add .
+git commit
+git status
+git branch
+git commit
+git push
+node menu
+q
+node menu
+q
+node menu
+awdawdawdq
+node menu
+
+git status
+git add .
+git commit
+git push
+node menu
+ls
+git checkout Imi
+git status
+git commit
+git add .
+git commit
+ls
+git checkout Imi
+git statusu
+git status
+git push
+git status
+git add .
+git commit
+git checkout
+ls
+git branch
+git checkout master 
+git pull
+git stash
+git status
+git pull
+git branch
+git 
+git status
+git add .
+git status
+git commit
+git pull
+git status
+node menu
+git status
+git add .
+git commit
+
+node menu
+git status
+
+node menu
+ls
+cd project/
+cd kappa-cat-man/
+code .
+node menu
+node menui
+node menu
+clear
+node menu
+q
+
+q
+node menu
+git status
+git add .
+git commit
+git push
+node menu
+cd ..
+ls
+git clone git@github.com:flowacademyhu/theta-bomberman.git
+cd theta-bomberman/
+ls
+node main.js
+npm install
+node main.js
+ls
+cd ..
+ls
+cd kappa-cat-man/
+ls
+node menu.js
+node menu.jsű
+
+node menu.js
+clear
+node menu.js
+node menu
+npm install
+node menu
+clear
+node menu
+git rev-list --all --count
+git shortlog
+clear
+git pull
+git stash
+git pull
+node menu.js
+q
+node menu.js
+git status
+git add .
+git commit
+git push
+git status
+git add .
+git commit
+git push
+git status
+git add .
+git commit
+git push
+git pull
+git stash
+git pull
+git status
+git add .
+git commit
+git push
+cheese
+lsmod
+lsmod | grep cam
+lsmod | grep web
+lsmod | grep c
+git status
+git add .
+git commit
+git push
+cd project/
+cd kappa-cat-man/
+code .
+node menu
+dmesg | less
+dmesg | less | grep cam
+dmesg | less | grep video
+dmesg | less | grep vi
+dmesg | less | grep web
+dmesg | less | grep cam
+find /lib/modules -name ibmcam.o
+inxi -Fxz
+ls
+git pull
+git stash
+git pull
+clear
+node menu
+npm install
+node menu
+npm install mpg123
+node menu
+npm install mpgPlayer
+node menu
+node -v
+node menu
+npm instam mpg123
+npm install mpg123
+node menu
+npm install Mpg123
+sudo apt-get install mpg123
+node menu
+clear
+node menu
+git shortlogg
+git shortlog
+clear
+node menu
+cheese
+cd project/kappa-cat-man/
+ls
+clear
+node menu
+clear
+node menu
+code .
+node menu
+lsmod
+lsmod | grep video
+lsmod | grep cam
+lsmod | grep genius
+lsmod | grep video
+cheese
+cd project/kappa-cat-man/
+git pull
+git stash
+git pull
+node menu
+ls
+pwd
+cd ...
+cd ..
+ls
+cd ..
+ls
+mkdir szakaszzaro
+cd szakaszzaro/
+ls
+touch szakaszzaro_feladat
+echo "Hello" >> szakaszzaro_feladat 
+cat szakaszzaro_feladat 
+mv szakaszzaro_feladat feladat
+ls
+cp feladat feladat2
+ls
+rm feladat2
+cat feladat 
+grep /var/log/syslog NetworkManager
+cd /var/log
+cd syslog
+ls
+grep syslog NetworkManager
+grep syslog
+grep syslog NetworkManager
+grep NetworkManager syslog
+grep NetworkManager syslog >> /home/imi/szakaszzaro/feladat 
+cd /home/imi/
+ls
+cd szakaszzaro/
+ls
+cat feladat 
+cd ..
+ls -a
+cp .bash_history ./szakaszzaro/
+cd ..
+ls
+cd imi
+ls
+cd szakaszzaro/
+ls
+ls -a
+git remote add origin git@github.com:itsIMITRI/szakaszzaroKappa.git
+git init
+git add README.md
+ls
+cd ..
+mkdir megnezzuk
+cd megnezzuk/
+git clone git@github.com:itsIMITRI/szakaszzaroKappa.git
+ls -a
+cd szakaszzaroKappa/
+ls -a
+cd szakaszzaro/
+ls
+ls -a
+cd ..
+ls
+cd ..
+ls
+cd szakaszzaro/0
+cd szakaszzaro/
+ls
+ls -a
+mv .bash_history bash_history
+ls 
+git status
+git add
+git add .
+git commit
+cat bash_history 
+git status
+git push
+ls
+git add bash_history
+git commit
+git push
+git push bash_history
+git push --set-upstream bash_history master
+ls
+ls -a
+cd ..
+ls
+ls -a
+cat .bash_history 

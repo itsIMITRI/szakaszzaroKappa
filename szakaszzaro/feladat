@@ -1,0 +1,130 @@
+Hello
+Mar 16 09:48:57 imipc NetworkManager[5335]: <info>  [1615884537.7871] device (enp4s0): carrier: link connected
+Mar 16 09:48:57 imipc NetworkManager[5335]: <info>  [1615884537.7883] device (enp4s0): state change: unavailable -> disconnected (reason 'carrier-changed', sys-iface-state: 'managed')
+Mar 16 09:48:57 imipc NetworkManager[5335]: <info>  [1615884537.7900] policy: auto-activating connection '1. vezetékes kapcsolat' (1f0611b3-6186-3c75-99b9-1d1c7d1c791e)
+Mar 16 09:48:57 imipc NetworkManager[5335]: <info>  [1615884537.7905] device (enp4s0): Activation: starting connection '1. vezetékes kapcsolat' (1f0611b3-6186-3c75-99b9-1d1c7d1c791e)
+Mar 16 09:48:57 imipc NetworkManager[5335]: <info>  [1615884537.7906] device (enp4s0): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Mar 16 09:48:57 imipc NetworkManager[5335]: <info>  [1615884537.7909] manager: NetworkManager state is now CONNECTING
+Mar 16 09:48:57 imipc NetworkManager[5335]: <info>  [1615884537.7910] device (enp4s0): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Mar 16 09:48:57 imipc NetworkManager[5335]: <info>  [1615884537.7915] device (enp4s0): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Mar 16 09:48:57 imipc NetworkManager[5335]: <info>  [1615884537.7918] dhcp4 (enp4s0): activation: beginning transaction (timeout in 45 seconds)
+Mar 16 09:48:58 imipc NetworkManager[5335]: <info>  [1615884538.4925] policy: auto-activating connection 'DIGI_e2de38' (0ce06f97-39f1-41e4-bf80-aab94613c024)
+Mar 16 09:48:58 imipc NetworkManager[5335]: <info>  [1615884538.4929] device (wlp3s0): Activation: starting connection 'DIGI_e2de38' (0ce06f97-39f1-41e4-bf80-aab94613c024)
+Mar 16 09:48:58 imipc NetworkManager[5335]: <info>  [1615884538.4929] device (wlp3s0): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Mar 16 09:48:58 imipc NetworkManager[5335]: <info>  [1615884538.4933] device (wlp3s0): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Mar 16 09:48:58 imipc NetworkManager[5335]: <info>  [1615884538.4935] device (wlp3s0): Activation: (wifi) access point 'DIGI_e2de38' has security, but secrets are required.
+Mar 16 09:48:58 imipc NetworkManager[5335]: <info>  [1615884538.4935] device (wlp3s0): state change: config -> need-auth (reason 'none', sys-iface-state: 'managed')
+Mar 16 09:48:58 imipc NetworkManager[5335]: <info>  [1615884538.4937] sup-iface[0x557c39a27120,wlp3s0]: wps: type pbc start...
+Mar 16 09:48:58 imipc NetworkManager[5335]: <info>  [1615884538.4958] device (wlp3s0): state change: need-auth -> prepare (reason 'none', sys-iface-state: 'managed')
+Mar 16 09:48:58 imipc NetworkManager[5335]: <info>  [1615884538.4961] device (wlp3s0): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Mar 16 09:48:58 imipc NetworkManager[5335]: <info>  [1615884538.4963] device (wlp3s0): Activation: (wifi) connection 'DIGI_e2de38' has security, and secrets exist.  No new secrets needed.
+Mar 16 09:48:58 imipc NetworkManager[5335]: <info>  [1615884538.4964] Config: added 'ssid' value 'DIGI_e2de38'
+Mar 16 09:48:58 imipc NetworkManager[5335]: <info>  [1615884538.4964] Config: added 'scan_ssid' value '1'
+Mar 16 09:48:58 imipc NetworkManager[5335]: <info>  [1615884538.4964] Config: added 'bgscan' value 'simple:30:-70:86400'
+Mar 16 09:48:58 imipc NetworkManager[5335]: <info>  [1615884538.4964] Config: added 'key_mgmt' value 'WPA-PSK WPA-PSK-SHA256 FT-PSK'
+Mar 16 09:48:58 imipc NetworkManager[5335]: <info>  [1615884538.4964] Config: added 'auth_alg' value 'OPEN'
+Mar 16 09:48:58 imipc NetworkManager[5335]: <info>  [1615884538.4964] Config: added 'psk' value '<hidden>'
+Mar 16 09:48:58 imipc NetworkManager[5335]: <info>  [1615884538.5075] device (wlp3s0): supplicant interface state: ready -> authenticating
+Mar 16 09:48:58 imipc NetworkManager[5335]: <info>  [1615884538.5075] device (p2p-dev-wlp3s0): supplicant management interface state: ready -> authenticating
+Mar 16 09:48:58 imipc NetworkManager[5335]: <info>  [1615884538.5106] device (wlp3s0): supplicant interface state: authenticating -> associating
+Mar 16 09:48:58 imipc NetworkManager[5335]: <info>  [1615884538.5106] device (p2p-dev-wlp3s0): supplicant management interface state: authenticating -> associating
+Mar 16 09:48:58 imipc NetworkManager[5335]: <info>  [1615884538.5320] device (wlp3s0): supplicant interface state: associating -> associated
+Mar 16 09:48:58 imipc NetworkManager[5335]: <info>  [1615884538.5321] device (p2p-dev-wlp3s0): supplicant management interface state: associating -> associated
+Mar 16 09:48:58 imipc NetworkManager[5335]: <info>  [1615884538.5481] device (wlp3s0): supplicant interface state: associated -> 4-way handshake
+Mar 16 09:48:58 imipc NetworkManager[5335]: <info>  [1615884538.5482] device (p2p-dev-wlp3s0): supplicant management interface state: associated -> 4-way handshake
+Mar 16 09:48:58 imipc NetworkManager[5335]: <info>  [1615884538.6029] device (wlp3s0): supplicant interface state: 4-way handshake -> completed
+Mar 16 09:48:58 imipc NetworkManager[5335]: <info>  [1615884538.6030] device (wlp3s0): Activation: (wifi) Stage 2 of 5 (Device Configure) successful. Connected to wireless network "DIGI_e2de38"
+Mar 16 09:48:58 imipc NetworkManager[5335]: <info>  [1615884538.6031] device (p2p-dev-wlp3s0): supplicant management interface state: 4-way handshake -> completed
+Mar 16 09:48:58 imipc NetworkManager[5335]: <info>  [1615884538.6034] device (wlp3s0): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Mar 16 09:48:58 imipc NetworkManager[5335]: <info>  [1615884538.6042] dhcp4 (wlp3s0): activation: beginning transaction (timeout in 45 seconds)
+Mar 16 09:48:58 imipc NetworkManager[5335]: <info>  [1615884538.6336] dhcp4 (wlp3s0): state changed unknown -> expire
+Mar 16 09:49:00 imipc NetworkManager[5335]: <info>  [1615884540.6672] dhcp4 (wlp3s0): option dhcp_lease_time      => '86400'
+Mar 16 09:49:00 imipc NetworkManager[5335]: <info>  [1615884540.6672] dhcp4 (wlp3s0): option domain_name_servers  => '193.110.57.4 193.110.56.8'
+Mar 16 09:49:00 imipc NetworkManager[5335]: <info>  [1615884540.6673] dhcp4 (wlp3s0): option expiry               => '1615970938'
+Mar 16 09:49:00 imipc NetworkManager[5335]: <info>  [1615884540.6673] dhcp4 (wlp3s0): option ip_address           => '192.168.1.8'
+Mar 16 09:49:00 imipc NetworkManager[5335]: <info>  [1615884540.6673] dhcp4 (wlp3s0): option requested_broadcast_address => '1'
+Mar 16 09:49:00 imipc NetworkManager[5335]: <info>  [1615884540.6673] dhcp4 (wlp3s0): option requested_domain_name => '1'
+Mar 16 09:49:00 imipc NetworkManager[5335]: <info>  [1615884540.6673] dhcp4 (wlp3s0): option requested_domain_name_servers => '1'
+Mar 16 09:49:00 imipc NetworkManager[5335]: <info>  [1615884540.6673] dhcp4 (wlp3s0): option requested_domain_search => '1'
+Mar 16 09:49:00 imipc NetworkManager[5335]: <info>  [1615884540.6674] dhcp4 (wlp3s0): option requested_host_name  => '1'
+Mar 16 09:49:00 imipc NetworkManager[5335]: <info>  [1615884540.6674] dhcp4 (wlp3s0): option requested_interface_mtu => '1'
+Mar 16 09:49:00 imipc NetworkManager[5335]: <info>  [1615884540.6674] dhcp4 (wlp3s0): option requested_ms_classless_static_routes => '1'
+Mar 16 09:49:00 imipc NetworkManager[5335]: <info>  [1615884540.6674] dhcp4 (wlp3s0): option requested_nis_domain => '1'
+Mar 16 09:49:00 imipc NetworkManager[5335]: <info>  [1615884540.6674] dhcp4 (wlp3s0): option requested_nis_servers => '1'
+Mar 16 09:49:00 imipc NetworkManager[5335]: <info>  [1615884540.6674] dhcp4 (wlp3s0): option requested_ntp_servers => '1'
+Mar 16 09:49:00 imipc NetworkManager[5335]: <info>  [1615884540.6675] dhcp4 (wlp3s0): option requested_rfc3442_classless_static_routes => '1'
+Mar 16 09:49:00 imipc NetworkManager[5335]: <info>  [1615884540.6675] dhcp4 (wlp3s0): option requested_root_path  => '1'
+Mar 16 09:49:00 imipc NetworkManager[5335]: <info>  [1615884540.6675] dhcp4 (wlp3s0): option requested_routers    => '1'
+Mar 16 09:49:00 imipc NetworkManager[5335]: <info>  [1615884540.6675] dhcp4 (wlp3s0): option requested_static_routes => '1'
+Mar 16 09:49:00 imipc NetworkManager[5335]: <info>  [1615884540.6675] dhcp4 (wlp3s0): option requested_subnet_mask => '1'
+Mar 16 09:49:00 imipc NetworkManager[5335]: <info>  [1615884540.6675] dhcp4 (wlp3s0): option requested_time_offset => '1'
+Mar 16 09:49:00 imipc NetworkManager[5335]: <info>  [1615884540.6676] dhcp4 (wlp3s0): option requested_wpad       => '1'
+Mar 16 09:49:00 imipc NetworkManager[5335]: <info>  [1615884540.6676] dhcp4 (wlp3s0): option routers              => '192.168.1.1'
+Mar 16 09:49:00 imipc NetworkManager[5335]: <info>  [1615884540.6676] dhcp4 (wlp3s0): option subnet_mask          => '255.255.255.0'
+Mar 16 09:49:00 imipc NetworkManager[5335]: <info>  [1615884540.6676] dhcp4 (wlp3s0): state changed expire -> bound
+Mar 16 09:49:00 imipc NetworkManager[5335]: <info>  [1615884540.6700] device (wlp3s0): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Mar 16 09:49:00 imipc NetworkManager[5335]: <info>  [1615884540.6738] device (wlp3s0): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Mar 16 09:49:00 imipc NetworkManager[5335]: <info>  [1615884540.6741] device (wlp3s0): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Mar 16 09:49:00 imipc NetworkManager[5335]: <info>  [1615884540.6772] policy: set 'DIGI_e2de38' (wlp3s0) as default for IPv4 routing and DNS
+Mar 16 09:49:00 imipc NetworkManager[5335]: <info>  [1615884540.6778] device (wlp3s0): Activation: successful, device activated.
+Mar 16 09:49:00 imipc NetworkManager[5335]: <info>  [1615884540.9512] manager: NetworkManager state is now CONNECTED_GLOBAL
+Mar 16 09:49:02 imipc NetworkManager[5335]: <info>  [1615884542.6683] dhcp4 (enp4s0): option dhcp_lease_time      => '86400'
+Mar 16 09:49:02 imipc NetworkManager[5335]: <info>  [1615884542.6683] dhcp4 (enp4s0): option domain_name_servers  => '193.110.57.4 193.110.56.8'
+Mar 16 09:49:02 imipc NetworkManager[5335]: <info>  [1615884542.6683] dhcp4 (enp4s0): option expiry               => '1615970942'
+Mar 16 09:49:02 imipc NetworkManager[5335]: <info>  [1615884542.6683] dhcp4 (enp4s0): option ip_address           => '192.168.1.26'
+Mar 16 09:49:02 imipc NetworkManager[5335]: <info>  [1615884542.6683] dhcp4 (enp4s0): option requested_broadcast_address => '1'
+Mar 16 09:49:02 imipc NetworkManager[5335]: <info>  [1615884542.6684] dhcp4 (enp4s0): option requested_domain_name => '1'
+Mar 16 09:49:02 imipc NetworkManager[5335]: <info>  [1615884542.6684] dhcp4 (enp4s0): option requested_domain_name_servers => '1'
+Mar 16 09:49:02 imipc NetworkManager[5335]: <info>  [1615884542.6684] dhcp4 (enp4s0): option requested_domain_search => '1'
+Mar 16 09:49:02 imipc NetworkManager[5335]: <info>  [1615884542.6684] dhcp4 (enp4s0): option requested_host_name  => '1'
+Mar 16 09:49:02 imipc NetworkManager[5335]: <info>  [1615884542.6684] dhcp4 (enp4s0): option requested_interface_mtu => '1'
+Mar 16 09:49:02 imipc NetworkManager[5335]: <info>  [1615884542.6684] dhcp4 (enp4s0): option requested_ms_classless_static_routes => '1'
+Mar 16 09:49:02 imipc NetworkManager[5335]: <info>  [1615884542.6684] dhcp4 (enp4s0): option requested_nis_domain => '1'
+Mar 16 09:49:02 imipc NetworkManager[5335]: <info>  [1615884542.6684] dhcp4 (enp4s0): option requested_nis_servers => '1'
+Mar 16 09:49:02 imipc NetworkManager[5335]: <info>  [1615884542.6684] dhcp4 (enp4s0): option requested_ntp_servers => '1'
+Mar 16 09:49:02 imipc NetworkManager[5335]: <info>  [1615884542.6684] dhcp4 (enp4s0): option requested_rfc3442_classless_static_routes => '1'
+Mar 16 09:49:02 imipc NetworkManager[5335]: <info>  [1615884542.6684] dhcp4 (enp4s0): option requested_root_path  => '1'
+Mar 16 09:49:02 imipc NetworkManager[5335]: <info>  [1615884542.6684] dhcp4 (enp4s0): option requested_routers    => '1'
+Mar 16 09:49:02 imipc NetworkManager[5335]: <info>  [1615884542.6684] dhcp4 (enp4s0): option requested_static_routes => '1'
+Mar 16 09:49:02 imipc NetworkManager[5335]: <info>  [1615884542.6684] dhcp4 (enp4s0): option requested_subnet_mask => '1'
+Mar 16 09:49:02 imipc NetworkManager[5335]: <info>  [1615884542.6684] dhcp4 (enp4s0): option requested_time_offset => '1'
+Mar 16 09:49:02 imipc NetworkManager[5335]: <info>  [1615884542.6684] dhcp4 (enp4s0): option requested_wpad       => '1'
+Mar 16 09:49:02 imipc NetworkManager[5335]: <info>  [1615884542.6685] dhcp4 (enp4s0): option routers              => '192.168.1.1'
+Mar 16 09:49:02 imipc NetworkManager[5335]: <info>  [1615884542.6685] dhcp4 (enp4s0): option subnet_mask          => '255.255.255.0'
+Mar 16 09:49:02 imipc NetworkManager[5335]: <info>  [1615884542.6685] dhcp4 (enp4s0): state changed unknown -> bound
+Mar 16 09:49:02 imipc NetworkManager[5335]: <info>  [1615884542.6696] device (enp4s0): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Mar 16 09:49:02 imipc NetworkManager[5335]: <info>  [1615884542.6722] device (enp4s0): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Mar 16 09:49:02 imipc NetworkManager[5335]: <info>  [1615884542.6724] device (enp4s0): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Mar 16 09:49:02 imipc NetworkManager[5335]: <info>  [1615884542.6736] device (enp4s0): Activation: successful, device activated.
+Mar 16 09:49:02 imipc NetworkManager[5335]: <info>  [1615884542.6740] manager: startup complete
+Mar 16 09:49:02 imipc whoopsie[5896]: [09:49:02] The default IPv4 route is: /org/freedesktop/NetworkManager/ActiveConnection/2
+Mar 16 09:49:02 imipc whoopsie[5896]: [09:49:02] Not a paid data plan: /org/freedesktop/NetworkManager/ActiveConnection/2
+Mar 16 09:49:02 imipc whoopsie[5896]: [09:49:02] Found usable connection: /org/freedesktop/NetworkManager/ActiveConnection/2
+Mar 16 09:49:02 imipc NetworkManager[5335]: <info>  [1615884542.9402] policy: set '1. vezetékes kapcsolat' (enp4s0) as default for IPv4 routing and DNS
+Mar 16 09:49:12 imipc systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+Mar 16 08:50:12 imipc NetworkManager[5335]: <info>  [1615881012.0029] agent-manager: agent[0172560f4dd7cb7b,:1.83/org.gnome.Shell.NetworkAgent/1000]: agent registered
+Mar 16 08:50:14 imipc kernel: [   94.346001] audit: type=1107 audit(1615881014.608:57): pid=5332 uid=103 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/NetworkManager" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.12" pid=6855 label="snap.snap-store.ubuntu-software" peer_pid=5335 peer_label="unconfined"
+Mar 16 09:09:37 imipc NetworkManager[5335]: <info>  [1615882177.9801] manager: NetworkManager state is now CONNECTED_SITE
+Mar 16 09:09:37 imipc dbus-daemon[5332]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.12' (uid=0 pid=5335 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar 16 09:09:40 imipc NetworkManager[5335]: <info>  [1615882180.1362] manager: NetworkManager state is now CONNECTED_LOCAL
+Mar 16 09:09:40 imipc NetworkManager[5335]: <info>  [1615882180.1375] manager: NetworkManager state is now CONNECTED_SITE
+Mar 16 09:09:40 imipc NetworkManager[5335]: <info>  [1615882180.1381] policy: set 'DIGI_e2de38' (wlp3s0) as default for IPv4 routing and DNS
+Mar 16 09:09:48 imipc systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+Mar 16 09:09:52 imipc NetworkManager[5335]: <info>  [1615882192.4912] manager: NetworkManager state is now CONNECTED_GLOBAL
+Mar 16 09:09:52 imipc NetworkManager[5335]: <info>  [1615882192.4935] policy: set '1. vezetékes kapcsolat' (enp4s0) as default for IPv4 routing and DNS
+Mar 16 09:09:52 imipc dbus-daemon[5332]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.12' (uid=0 pid=5335 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar 16 09:09:52 imipc whoopsie[5896]: [09:09:52] The default IPv4 route is: /org/freedesktop/NetworkManager/ActiveConnection/1
+Mar 16 09:09:52 imipc whoopsie[5896]: [09:09:52] Not a paid data plan: /org/freedesktop/NetworkManager/ActiveConnection/1
+Mar 16 09:09:52 imipc whoopsie[5896]: [09:09:52] Found usable connection: /org/freedesktop/NetworkManager/ActiveConnection/1
+Mar 16 09:10:03 imipc systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+Mar 16 09:25:12 imipc NetworkManager[5335]: <info>  [1615883112.2674] manager: NetworkManager state is now CONNECTED_SITE
+Mar 16 09:25:12 imipc NetworkManager[5335]: <info>  [1615883112.2690] manager: NetworkManager state is now CONNECTED_LOCAL
+Mar 16 09:25:12 imipc NetworkManager[5335]: <info>  [1615883112.2697] manager: NetworkManager state is now CONNECTED_SITE
+Mar 16 09:25:12 imipc NetworkManager[5335]: <info>  [1615883112.2718] policy: set 'DIGI_e2de38' (wlp3s0) as default for IPv4 routing and DNS
+Mar 16 09:25:12 imipc dbus-daemon[5332]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.12' (uid=0 pid=5335 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar 16 09:25:12 imipc NetworkManager[5335]: <info>  [1615883112.5625] manager: NetworkManager state is now CONNECTED_GLOBAL
+Mar 16 09:25:12 imipc NetworkManager[5335]: <info>  [1615883112.5641] policy: set '1. vezetékes kapcsolat' (enp4s0) as default for IPv4 routing and DNS
+Mar 16 09:25:12 imipc whoopsie[5896]: [09:25:12] The default IPv4 route is: /org/freedesktop/NetworkManager/ActiveConnection/1
+Mar 16 09:25:12 imipc whoopsie[5896]: [09:25:12] Not a paid data plan: /org/freedesktop/NetworkManager/ActiveConnection/1
+Mar 16 09:25:12 imipc whoopsie[5896]: [09:25:12] Found usable connection: /org/freedesktop/NetworkManager/ActiveConnection/1
+Mar 16 09:25:23 imipc systemd[1]: NetworkManager-dispatcher.service: Succeeded.
